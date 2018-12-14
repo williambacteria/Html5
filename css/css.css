@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #fff;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+.layout{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+header,footer{
+    height: 100px;
+    background: #000;
+}
+
+.main-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    background: #fff;
+}
+
+.header-menu li{
+    float: left;
+    margin-left: 10px;
+}
+
+/* main */
+main{
+    height: 2000px;
+    background-color: #333;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.banner{
+    height: 500px;
+    background-color: #aaa;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+/*  */
+.content-list{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 50px
+}
+
+.underbanner-img{
+    height: 280px;
+    width: 250px;
+    background-color: #aaa
+}
+
+.content-list2{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 50px;
+}
+.content-list2 .blue{
+        height:280px;
+        width: 200px;
+        background-color:blue
+}
+
+.content-list2  .green{
+    height: 280px;
+    width:250px;
+    background-color: green
+}
+
+.content-list2  .red{
+    height:280px;
+    width:300px;
+    background-color: red
+}
+
+.content-list2 .orange{
+    height:280px;
+    width:350px;
+    background-color: orange
+}
+
+.content-list3{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 100px;
+}
+
+.content-list3 .blue{
+    height:280px;
+    width: 200px;
+    background-color:blue
+}
+
+.content-list3  .green{
+height: 280px;
+width:250px;
+background-color: green
+}
+
+.content-list3  .red{
+height:280px;
+width:300px;
+background-color: red
+}
+
+.content-list3 .orange{
+height:280px;
+width:350px;
+background-color: orange
+}
+.banner-font{
+    color: #333;
+    font-size: 40px;
+    /* text-align: center;
+    line-height: 500px; */
+}
+
+/*image*/
+.image{
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.image img{
+   height: 150px;
+   width: 180px;
+}
+/* footer */
+
+.footer-text p{
+    text-align: center;
+}
+
